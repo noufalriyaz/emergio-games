@@ -9,9 +9,15 @@
     background-color: #000000;
 }
 
-.body{
+.body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
+    background-colour: #000000;
+}
+
+.emergio .background {
+    justify-content: center;
+    background-color: #000000;
 }
 
 .emergio .header {
