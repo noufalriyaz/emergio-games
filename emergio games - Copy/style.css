@@ -1,0 +1,321 @@
+.emergio {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    padding: 20px;
+    position: relative;
+    background-color: #000000;
+}
+
+.body{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.emergio .header {
+    position: relative;
+    width: 1400px;
+    height: 123px;
+    background-color: transparent;
+    border-radius: 119px;
+    box-shadow: inset 0px 4px 4px #00000040;
+    backdrop-filter: blur(50px) brightness(100%);
+    -webkit-backdrop-filter: blur(50px) brightness(100%);
+    background: linear-gradient(
+        -90deg,
+        rgb(129, 186, 204) 0%,
+        rgb(161, 92, 163) 30.5%,
+        rgb(251, 124, 204) 44.5%,
+        rgba(223.55, 118.3, 158.99, 0.38) 62.5%,
+        rgba(124.95, 109.44, 109.44, 0) 100%
+    );
+}
+
+.emergio .navigation-menu {
+    display: flex;
+    width: 625px;
+    justify-content: center;
+    gap: 34px;
+    position: absolute;
+    top: 46px;
+    left: 388px;
+}
+
+.emergio .div-wrapper {
+    position: relative;
+    width: 129px;
+    height: 33px;
+}
+
+.emergio .text-wrapper {
+    left: 25px;
+    position: absolute;
+    top: -1px;
+    font-family: "Jura-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.emergio .cource {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Jura-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.emergio .career {
+    position: absolute;
+    top: -1px;
+    left: 14px;
+    font-family: "Jura-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.emergio .contact {
+    left: 3px;
+    position: absolute;
+    top: -1px;
+    font-family: "Jura-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.emergio .logo-wrap {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 35px;
+    left: 142px;
+}
+
+.emergio .logo {
+    position: relative;
+    width: 201px;
+    height: 52px;
+}
+
+.emergio .login-button {
+    position: absolute;
+    width: 281px;
+    height: 54px;
+    top: 36px;
+    left: 1076px;
+}
+
+.emergio .log-in {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+.emergio .login-button-wrap {
+    position: relative;
+
+    width: 281px;
+    height: 54px;
+}
+
+.emergio .div {
+    position: absolute;
+    top: 10px;
+    left: 97px;
+    font-family: "Jura-Medium", Helvetica;
+    font-weight: 500;
+    color: #121212;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+
+
+.top-title {
+    margin-top: 52px;
+    color: #fff;
+    text-align: center;
+    z-index: 3;
+
+   & h1 {
+        font-size: 52px;
+        font-weight: 700;
+        letter-spacing: -1;
+    }
+
+    & h3{
+        margin-top: 3px;
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+    & .links{
+        margin-top: 12px;
+        font-size: 20px;
+    
+      &  a{
+            margin-right: 12px;
+            color: var(--a);
+            img {
+                width: 12px;
+            }
+        }
+    }
+}
+.emergio .component {
+    position: relative;
+    width: 1399px;
+    height: 744px;
+    background-image: url(c:\Users\NOUFAL\Downloads\man-neon-suit-sits-chair-with-neon-sign-that-says-word-it.jpg);
+    background-size: 100% 100%;}
+
+.emergio .overlap {
+    position: relative;
+    width: 1200px;
+    height: 1484px;
+}
+
+.emergio .play-learn {
+    display: flex;
+    flex-direction: column;
+    width: 698px;
+    height: 742px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.emergio .group {
+    position: relative;
+    width: 1404px;
+    height: 742px;
+    margin-right: 0;
+    
+}
+
+.emergio .p {
+    position: absolute;
+    width: 1021px;
+    top: 331px;
+    left: 177px;
+    text-shadow: 0px 4px 8px #0000008c;
+    font-family: "Jura-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 35.5px;
+}
+
+.emergio .overlap-group {
+    position: absolute;
+    width: 1000px;
+    height: 71px;
+    top: 212px;
+    left: 177px;
+}
+
+.emergio .rectangle {
+    position: absolute;
+    width: 394px;
+    height: 71px;
+    top: 0;
+    left: 2px;
+    filter: blur(68px);
+    background: linear-gradient(180deg, rgb(99, 65, 126) 0%, rgba(125, 195, 211, 0) 100%);
+}
+
+.emergio .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Jura-Regular", Helvetica;
+    font-weight: 400;
+    color: #fdfdfd;
+    font-size: 42px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.emergio .overlap-group-wrapper {
+    position: absolute;
+    width: 605px;
+    height: 156px;
+    top: 43px;
+    left: 177px;
+}
+
+
+.emergio .overlap-group-2 {
+    position: relative;
+    width: 603px;
+    height: 156px;
+}
+
+.emergio .text-background {
+    position: absolute;
+    width: 603px;
+    height: 142px;
+    top: 14px;
+    left: 0;
+  
+}
+
+
+.emergio .PLAY-LEARN-AND-BUILD {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Jura-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.emergio .main-content-area {
+    position: relative;
+    width: 1400px;
+    height: 1806px;
+    background-color: #2a2525d4;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #efbbbbd4;
+    box-shadow: inset 0px 4px 4px #00000040;
+    backdrop-filter: blur(50px) brightness(100%);
+    -webkit-backdrop-filter: blur(50px) brightness(100%);
+}
